@@ -1,0 +1,94 @@
+{
+  "is": "index",
+  "cStateVersion": "6.0",
+  "apiVersion": "2.0",
+  "title": "Private Captcha",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://status.privatecaptcha.com/",
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
+  "summaryStatus": "ok",
+  "categories": [
+      {
+        "name": "API",
+        "description": "Puzzle, Verify and other APIs",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    ,
+      {
+        "name": "Websites",
+        "description": "Portal, Public website, Docs",
+        "hideTitle": false,
+        "closedByDefault": false
+      }
+    
+  ],
+  
+  
+  "pinnedIssues": [],
+  "systems": [
+    
+      {
+        "name": "Global API",
+        "category": "API",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "EU API",
+        "category": "API",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Public Website",
+        "description": "Main website of Private Captcha",
+        "category": "Websites",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Documentation Website",
+        "description": "Documentation of Private Captcha",
+        "category": "Websites",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Portal",
+        "description": "Customer portal",
+        "category": "Websites",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+
+  "buildDate": "2025-06-13",
+  "buildTime": "16:44",
+  "buildTimezone": "EEST",
+  "colorBrand": "#072929",
+  "colorOk": "#00ba00",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#cd1811",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+  "logo": "https://status.privatecaptcha.com/pc-logo-light.svg",
+  "googleAnalytics": "UA-00000000-1"
+}
