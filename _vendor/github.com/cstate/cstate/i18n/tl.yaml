@@ -1,0 +1,230 @@
+# Tagalog language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: tl
+- id: languageName
+  translation: Tagalog
+- id: languageNameShort
+  translation: TGL
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Nakakaranas ng malaking isyu
+- id: isDisrupted
+  translation: Nakakaranas ng pagkagambala
+- id: isNotice
+  translation: Pakiusap paki-basa ang anunsyo
+- id: isOk
+  translation: Lahat ng sistema ay gumagana
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Ay! Mukhang naka-diseybol ang Javascript mo. Pakiusap
+- id: noScriptingLink
+  translation: i-eneybol ang skripting
+- id: noScriptingOutro
+  translation: para mas maganda ang iyong eksperyensha sa websayt na ito.
+- id: thisIsDown
+  translation: Hindi gumagana
+- id: thisIsDisrupted
+  translation: May pagkagambala
+- id: thisIsNotice
+  translation: Pagpapanatili
+- id: thisIsOk
+  translation: Gumagana
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Huling na-chek
+- id: justNow
+  translation: ngayon lamang
+- id: someTimeAgo
+  translation: nakaraan
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: mga taon
+- id: monthsAgo
+  translation: mga buwan
+- id: daysAgo
+  translation: a
+- id: hoursAgo
+  translation: o
+- id: minsAgo
+  translation: min
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Susubukan naming mag-refresh bawat 5 min
+
+# Incidents
+- id: incidents
+  translation: Mga insidente
+- id: incidentHistory
+  translation: Kasaysayan ng mga insidente
+
+- id: resolved
+  translation: Na-resolba # if it's less than a min
+- id: inUnderAMinute
+  translation: sa ilalim ng isang minuto # continuing the last string
+- id: resolvedAfter
+  translation: Na-resolba pagkatapos ng  # + 19 min
+- id: ofDowntime
+  translation: ng dawntaym
+
+- id: downtimeOngoing
+  translation: Ang isyung ito ay hindi pa na-reresolba
+
+
+- id: calmBeforeTheStorm
+  translation: Ito ba ang katahimikan bago ang bagyo?
+- id: noIncidentsDesc
+  translation: Ang status peyg na ito ay walang na-itala na insidente. This status page has no logged incidents. This may be because the status page owner (or owners) have recently set up their status page, have had no downtime, or have not logged any downtime.
+
+
+- id: continueReading
+  translation: Ipagpatuloy ang pagbabasa
+- id: prev
+  translation: Dati
+- id: next
+  translation: Susunod
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Bumalik sa
+- id: backToTop
+  translation: Bumalik sa ibabaw
+- id: poweredBy
+  translation: Pinapatakbo ng
+
+- id: notFound
+  translation: Walang dito.
+- id: notFoundText
+  translation: Ito'y maaaring problema sa amin. Maaring may nilipat kami na resors at ngayon ay nawala na ito. Posible din na ang resors na nais mong makita ay walang laman. Pero, ayos lang ba sa iyo ang dobol-check sa link?
+
+- id: subscribeViaRss
+  translation: Mag-subskrayb sa pamamagitan ng RSS
+- id: toAllUpdates
+  translation: sa lahat ng mga updeyt
+- id: or
+  translation: o
+- id: onlyThisFeed
+  translation: sa feed lamang na ito
+
+##
+## v3
+##
+- id: entries
+  translation: mga entri
+- id: newestToOldest
+  translation: mula sa pinaka-bago hanggang sa pinaka-luma
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Mukang ang sistemang ito ay hindi na nag-eesist o di kailan mang nagkaroon ng na-rekord na dawntaym.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Kamakailan, base sa iyong average na data, mukang ang sistemang ito ay nag-dawn ng mga
+- id: averageSystemsDowntimeSecondPart
+  translation: minuto nang paisa-isa.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: sa
+- id: weeksAgo
+  translation: " l"
+- id: yearAgo
+  translation: " taon"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Hindi ipinapakita ang mga insidente na mas matanda sa {{ .MaxAgeYears }} taon"
+- id: loading
+  translation: "Naglo-load"
+- id: chart
+  translation: "Tsart"
+- id: getSupport
+  translation: "Kumuha ng suporta"
+- id: subscribe
+  translation: "Mag-subscribe"
+- id: subscribeDescription
+  translation: "Mag-subscribe sa mga update mula sa pahina ng katayuan na ito."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Email"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "URL ng Webhook"
+- id: embed
+  translation: "I-embed"
+- id: embedDescription
+  translation: "Maaari mong i-embed ang pahina ng katayuan na ito sa iyong sariling website o application. Kopyahin lamang ang sumusunod na snippet ng HTML at i-paste ito upang makakuha ng pop-up na mensahe kung mayroong mga pagkaantala:"
+- id: copy
+  translation: "Kopyahin"
+- id: embedDisclaimer
+  translation: "Naghahanap ng higit pang impormasyon tungkol sa embed na ito at kung paano mo ito magagamit?"
+- id: learnMore
+  translation: "Matuto pa dito"
+- id: pushNotifications
+  translation: "Mga push notification"
+- id: pushNotificationsDescription
+  translation: "Maaari kang mag-subscribe sa pahina ng katayuan na ito sa pamamagitan ng mga push notification sa iyong browser. Kakailanganin mong gawin ito sa bawat device na gusto mong makatanggap ng mga notification. Pakitandaan na ang feature na ito ay napapailalim sa suporta ng browser at maaaring hindi gumana sa lahat ng device gaya ng inaasahan."
+- id: pushNotificationsDisclaimer
+  translation: "Inirerekomenda naming pumili ng ibang paraan ng notification kung kailangan mong maihatid ang mga kritikal na update sa lalong madaling panahon."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Maaari mong gamitin ang aming API upang isama ang impormasyon at mga update mula sa pahina ng katayuan na ito sa iyong sariling website o application. Gumawa lamang ng kahilingan sa GET sa sumusunod na URL:"
+- id: APIdisclaimer
+  translation: "Pakitandaan na ang API ay maaaring sumailalim sa paglilimita sa rate."
+- id: getAllUpdates
+  translation: "Kunin ang lahat ng update"
+- id: getSomeUpdates
+  translation: "Kumuha ng mga update mula sa ilang system lamang"
+- id: openDropdown
+  translation: "Buksan ang dropdown"
+- id: closeDropdown
+  translation: "Isara ang dropdown"
+- id: automated
+  translation: "Awtomatiko"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Awtomatikong nabuo ang post na ito."
+- id: readDocumentation
+  translation: "Basahin ang dokumentasyon"
+- id: copied
+  translation: "Kinopya!"
+- id: copyToClipboard
+  translation: "Kopyahin sa clipboard"
+- id: open
+  translation: "Buksan"

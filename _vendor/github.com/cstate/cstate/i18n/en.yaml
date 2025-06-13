@@ -1,0 +1,232 @@
+# English language file for cState
+# Official
+# Version 6.0
+
+- id: languageCode
+  translation: en
+- id: languageName
+  translation: English
+- id: languageNameShort
+  translation: ENG
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Experiencing major issues
+- id: isDisrupted
+  translation: Experiencing disruptions
+- id: isNotice
+  translation: Please read announcement
+- id: isOk
+  translation: No issues detected
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Uh oh! It looks like you have disabled JavaScript. Please
+- id: noScriptingLink
+  translation: enable scripting
+- id: noScriptingOutro
+  translation: to enhance your experience on this website.
+
+- id: thisIsDown
+  translation: Down
+- id: thisIsDisrupted
+  translation: Disrupted
+- id: thisIsNotice
+  translation: Maintenance
+- id: thisIsOk
+  translation: Operational
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Last updated
+- id: justNow
+  translation: just now
+- id: someTimeAgo
+  translation: ago
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: years
+- id: monthsAgo
+  translation: months
+- id: daysAgo
+  translation: d
+- id: hoursAgo
+  translation: h
+- id: minsAgo
+  translation: min
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: We will try to refresh every 5 min
+
+# Incidents
+- id: incidents
+  translation: Incidents
+- id: incidentHistory
+  translation: Incident history
+
+- id: resolved
+  translation: Resolved # if it's less than a min
+- id: inUnderAMinute
+  translation: in under a minute # continuing the last string
+- id: resolvedAfter
+  translation: Resolved after # + 19 min
+- id: ofDowntime
+  translation: of downtime
+
+- id: downtimeOngoing
+  translation: This issue is not resolved yet
+
+
+- id: calmBeforeTheStorm
+  translation: Is it the calm before the storm?
+- id: noIncidentsDesc
+  translation: This status page has no logged incidents. This may be because the status page owner (or owners) have recently set up their status page, have had no downtime, or have not logged any downtime.
+
+
+- id: continueReading
+  translation: Continue reading
+- id: prev
+  translation: Previous
+- id: next
+  translation: Next
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Go back to
+- id: backToTop
+  translation: Back to top
+- id: poweredBy
+  translation: Powered by
+
+- id: notFound
+  translation: There is nothing here.
+- id: notFoundText
+  translation: This could be a problem on our part. Perhaps we moved a certain resource and now it is gone. It is also possible that the resource you are trying to view is empty. But do you also mind to double check the link?
+
+- id: subscribeViaRss
+  translation: Subscribe via RSS
+- id: toAllUpdates
+  translation: to all updates
+- id: or
+  translation: or
+- id: onlyThisFeed
+  translation: only this feed
+
+##
+## v3
+##
+- id: entries
+  translation: entries
+- id: newestToOldest
+  translation: newest to oldest
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: It looks like this system either does not exist or has never had any recorded downtime.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Recently, based on average data, it looks like this system has gone down for about
+- id: averageSystemsDowntimeSecondPart
+  translation: minutes at a time.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: in
+- id: weeksAgo
+  translation: " w"
+- id: yearAgo
+  translation: " year"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Not showing incidents older than from {{ .MaxAgeYears }} years"
+- id: loading
+  translation: "Loading"
+- id: chart
+  translation: "chart"
+- id: getSupport
+  translation: "Get support"
+- id: subscribe
+  translation: "Subscribe"
+- id: subscribeDescription
+  translation: "Subscribe to updates from this status page."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Email"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "Webhook URL"
+- id: embed
+  translation: "Embed"
+- id: embedDescription
+  translation: "You can embed this status page in your own website or application. Simply copy the following HTML snippet and paste it in to get a pop-up message if there are disruptions:"
+- id: copy
+  translation: "Copy"
+- id: embedDisclaimer
+  translation: "Looking for more information about this embed and how you can use it?"
+- id: learnMore
+  translation: "Learn more here"
+- id: pushNotifications
+  translation: "Push notifications"
+- id: pushNotificationsDescription
+  translation: "You can subscribe to this status page via push notifications through your browser. You will have to do this on every device you want to receive notifications on. Please note that this feature is subject to browser support and may not work on all devices as expected."
+- id: pushNotificationsDisclaimer
+  translation: "We recommend choosing a different method of notification if you need critical updates to be delivered as soon as possible."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "You can use our API to integrate the information and updates from this status page into your own website or application. Simply make a GET request to the following URL:"
+- id: APIdisclaimer
+  translation: "Please note that the API may be subject to rate limiting."
+- id: getAllUpdates
+  translation: "Get all updates"
+- id: getSomeUpdates
+  translation: "Get updates only from some systems"
+- id: openDropdown
+  translation: "Open dropdown"
+- id: closeDropdown
+  translation: "Close dropdown"
+- id: automated
+  translation: "Automated"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "This post was automatically generated."
+- id: readDocumentation
+  translation: "Read documentation"
+- id: copied
+  translation: "Copied!"
+- id: copyToClipboard
+  translation: "Copy to clipboard"
+- id: open
+  translation: "Open"

@@ -1,0 +1,225 @@
+# Spanish language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: es
+- id: languageName
+  translation: Spanish
+- id: languageNameShort
+  translation: SPA
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Experimentando problemas
+- id: isDisrupted
+  translation: Experimentando interrupciones
+- id: isNotice
+  translation: Por favor, lea el anuncio
+- id: isOk
+  translation: Todo está funcionando bien
+
+# No JS warning
+- id: noScriptingIntro
+  translation: ¡Oh no! Parece que ha deshabilitado JavaScript. Por favor, habilite el scripting para mejorar su experiencia en este sitio web.
+
+- id: thisIsDown
+  translation: Caído
+- id: thisIsDisrupted
+  translation: Interrumpido
+- id: thisIsNotice
+  translation: Mantenimiento
+- id: thisIsOk
+  translation: Funcional
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Última actualización
+- id: justNow
+  translation: justo ahora
+- id: someTimeAgo
+  translation: hace
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: años
+- id: monthsAgo
+  translation: meses
+- id: daysAgo
+  translation: d
+- id: hoursAgo
+  translation: hs
+- id: minsAgo
+  translation: min
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Intentaremos actualizar cada 5 min
+
+# Incidents
+- id: incidents
+  translation: Incidentes
+- id: incidentHistory
+  translation: Historial de incidentes
+
+- id: resolved
+  translation: Resuelto
+- id: inUnderAMinute
+  translation: en menos de un minuto
+- id: resolvedAfter
+  translation: Resuelto después de
+- id: ofDowntime
+  translation: de tiempo de inactividad
+
+- id: downtimeOngoing
+  translation: Este problema aún no está resuelto
+
+- id: calmBeforeTheStorm
+  translation: ¿Es la calma antes de la tormenta?
+- id: noIncidentsDesc
+  translation: Esta página de estado no tiene incidentes registrados. Esto puede deberse a que el propietario (o propietarios) de la página de estado la han configurado recientemente, no han tenido tiempo de inactividad o no han registrado ningún tiempo de inactividad.
+
+- id: continueReading
+  translation: Continuar leyendo
+- id: prev
+  translation: Anterior
+- id: next
+  translation: Siguiente
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Volver a
+- id: backToTop
+  translation: Volver al inicio
+- id: poweredBy
+  translation: Powered by
+
+- id: notFound
+  translation: No hay nada aquí.
+- id: notFoundText
+  translation: Esto podría ser un problema de nuestra parte. Tal vez movimos un recurso y ahora se ha ido. También es posible que el recurso que está tratando de ver esté vacío. ¿Podría verificar el enlace nuevamente?
+
+- id: subscribeViaRss
+  translation: Suscribirse vía RSS
+- id: toAllUpdates
+  translation: a todas las actualizaciones
+- id: or
+  translation: o
+- id: onlyThisFeed
+  translation: solo este feed
+
+##
+## v3
+##
+- id: entries
+  translation: entradas
+- id: newestToOldest
+  translation: reciente a más antiguo
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Parece que este sistema no existe o nunca ha tenido tiempo de inactividad registrado.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Recientemente, según datos promedio, parece que este sistema ha estado inactivo durante aproximadamente
+- id: averageSystemsDowntimeSecondPart
+  translation: minutos a la vez.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: en
+- id: weeksAgo
+  translation: " semanas"
+- id: yearAgo
+  translation: " año"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "No mostrar incidentes anteriores a {{ .MaxAgeYears }} años"
+- id: loading
+  translation: "Cargando"
+- id: chart
+  translation: "Gráfico"
+- id: getSupport
+  translation: "Obtener soporte"
+- id: subscribe
+  translation: "Suscribirse"
+- id: subscribeDescription
+  translation: "Suscríbase a las actualizaciones de esta página de estado."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Correo electrónico"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "URL del webhook"
+- id: embed
+  translation: "Incrustar"
+- id: embedDescription
+  translation: "Puede incrustar esta página de estado en su propio sitio web o aplicación. Simplemente copie el siguiente fragmento de HTML y péguelo para obtener un mensaje emergente si hay interrupciones:"
+- id: copy
+  translation: "Copiar"
+- id: embedDisclaimer
+  translation: "¿Busca más información sobre esta incrustación y cómo puede usarla?"
+- id: learnMore
+  translation: "Más información aquí"
+- id: pushNotifications
+  translation: "Notificaciones push"
+- id: pushNotificationsDescription
+  translation: "Puede suscribirse a esta página de estado a través de notificaciones push a través de su navegador. Tendrá que hacer esto en cada dispositivo en el que desee recibir notificaciones. Tenga en cuenta que esta función está sujeta a la compatibilidad del navegador y es posible que no funcione en todos los dispositivos como se esperaba."
+- id: pushNotificationsDisclaimer
+  translation: "Recomendamos elegir un método de notificación diferente si necesita que se entreguen actualizaciones críticas lo antes posible."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Puede usar nuestra API para integrar la información y las actualizaciones de esta página de estado en su propio sitio web o aplicación. Simplemente haga una solicitud GET a la siguiente URL:"
+- id: APIdisclaimer
+  translation: "Tenga en cuenta que la API puede estar sujeta a límites de velocidad."
+- id: getAllUpdates
+  translation: "Obtener todas las actualizaciones"
+- id: getSomeUpdates
+  translation: "Obtener actualizaciones solo de algunos sistemas"
+- id: openDropdown
+  translation: "Abrir menú desplegable"
+- id: closeDropdown
+  translation: "Cerrar menú desplegable"
+- id: automated
+  translation: "Automatizado"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Esta publicación se generó automáticamente."
+- id: readDocumentation
+  translation: "Leer documentación"
+- id: copied
+  translation: "¡Copiado!"
+- id: copyToClipboard
+  translation: "Copiar al portapapeles"
+- id: open
+  translation: "Abrir"

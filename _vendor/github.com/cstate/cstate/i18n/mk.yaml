@@ -1,0 +1,230 @@
+# Macedonian language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: mk
+- id: languageName
+  translation: Македонски
+- id: languageNameShort
+  translation: MK
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Големи проблеми
+- id: isDisrupted
+  translation: Нарушување
+- id: isNotice
+  translation: Прочитај објава
+- id: isOk
+  translation: Сите системи оперативни
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Изгледа дека сте исклучиле JavaScript.
+- id: noScriptingLink
+  translation: молиме уклучите скриптирање за да
+- id: noScriptingOutro
+  translation: го подобрите вашето искуство на оваа веб страна.
+
+- id: thisIsDown
+  translation: Паднато
+- id: thisIsDisrupted
+  translation: Нарушено
+- id: thisIsNotice
+  translation: Одржување
+- id: thisIsOk
+  translation: Оперативно
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Последно проверено
+- id: justNow
+  translation: сега
+- id: someTimeAgo
+  translation: претходно
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: години
+- id: monthsAgo
+  translation: месеци
+- id: daysAgo
+  translation: д
+- id: hoursAgo
+  translation: ч
+- id: minsAgo
+  translation: м
+- id: secondsAgo
+  translation: с
+
+- id: autoRefreshNotice
+  translation: Ќе пробаме да освежиме секои 5 минути.
+
+# Incidents
+- id: incidents
+  translation: Инциденти
+- id: incidentHistory
+  translation: Историја на инциденти
+
+- id: resolved
+  translation: Решено # if it's less than a min
+- id: inUnderAMinute
+  translation: под една минута # continuing the last string
+- id: resolvedAfter
+  translation: Решено после # + 19 min
+- id: ofDowntime
+  translation: од нарушување
+
+- id: downtimeOngoing
+  translation: Ова нарушување уште не е решено
+
+
+- id: calmBeforeTheStorm
+  translation: Дали е тихот пред бурата?
+- id: noIncidentsDesc
+  translation: Оваа статус страна нема најавени инциденти. Ова може да биде поради тоа што сопстениците на оваа страна ја поставиле оваа статусна страна неодамна, немале нарушувања или немале најави за нарушувања.
+
+
+- id: continueReading
+  translation: Продолжете со читање
+- id: prev
+  translation: Претходно
+- id: next
+  translation: Следно
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Врати се назад
+- id: backToTop
+  translation: Врати се на врвот
+- id: poweredBy
+  translation: Напојувано со
+
+- id: notFound
+  translation: Нема ништо тука.
+- id: notFoundText
+  translation: Ова може да е проблем на нашата страна. Можеби преместивме некои ресурси и сега ги нема. Можни ресурсот што пробувате да го пристапите е празен. Ве молиме проверите го линкот повторно.
+
+- id: subscribeViaRss
+  translation: Претплатете се со RSS
+- id: toAllUpdates
+  translation: за сите најави
+- id: or
+  translation: или
+- id: onlyThisFeed
+  translation: само оваа содржина
+
+##
+## v3
+##
+- id: entries
+  translation: најави
+- id: newestToOldest
+  translation: најнови до најстари
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Изгледа дека системот или не постои или нема најавени нарушувања.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Во последно време, врз основа на просечни податици, овој систем се сметал паднат за околу
+- id: averageSystemsDowntimeSecondPart
+  translation: минути на време.
+
+##
+## v4.4
+##
+
+- id: in
+  translation: во
+- id: weeksAgo
+  translation: " н"
+- id: yearAgo
+  translation: " г"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Не се прикажуваат инциденти постари од {{ .MaxAgeYears }} години"
+- id: loading
+  translation: "Се вчитува"
+- id: chart
+  translation: "Графикон"
+- id: getSupport
+  translation: "Добијте поддршка"
+- id: subscribe
+  translation: "Претплатете се"
+- id: subscribeDescription
+  translation: "Претплатете се на ажурирања од оваа страница за статус."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Е-пошта"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "Webhook URL"
+- id: embed
+  translation: "Вметни"
+- id: embedDescription
+  translation: "Можете да ја вметнете оваа страница за статус во вашата сопствена веб-страница или апликација. Едноставно копирајте го следниов HTML исечок и залепете го за да добиете скокачка порака доколку има прекини:"
+- id: copy
+  translation: "Копирај"
+- id: embedDisclaimer
+  translation: "Барате повеќе информации за ова вметнување и како можете да го користите?"
+- id: learnMore
+  translation: "Дознајте повеќе овде"
+- id: pushNotifications
+  translation: "Push известувања"
+- id: pushNotificationsDescription
+  translation: "Можете да се претплатите на оваа страница за статус преку push известувања преку вашиот прелистувач. Ќе треба да го направите ова на секој уред на кој сакате да примате известувања. Ве молиме имајте предвид дека оваа функција е предмет на поддршка од прелистувачот и може да не работи на сите уреди како што се очекува."
+- id: pushNotificationsDisclaimer
+  translation: "Препорачуваме да изберете различен метод на известување доколку ви требаат критичните ажурирања да бидат испорачани што е можно поскоро."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Можете да го користите нашиот API за да ги интегрирате информациите и ажурирањата од оваа страница за статус во вашата сопствена веб-страница или апликација. Едноставно направете GET барање до следнава URL-адреса:"
+- id: APIdisclaimer
+  translation: "Ве молиме имајте предвид дека API може да биде предмет на ограничување на стапката."
+- id: getAllUpdates
+  translation: "Добијте ги сите ажурирања"
+- id: getSomeUpdates
+  translation: "Добијте ажурирања само од некои системи"
+- id: openDropdown
+  translation: "Отвори паѓачко мени"
+- id: closeDropdown
+  translation: "Затвори паѓачко мени"
+- id: automated
+  translation: "Автоматизирано"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Овој пост беше автоматски генериран."
+- id: readDocumentation
+  translation: "Прочитајте ја документацијата"
+- id: copied
+  translation: "Копирано!"
+- id: copyToClipboard
+  translation: "Копирај во таблата со исечоци"
+- id: open
+  translation: "Отвори"

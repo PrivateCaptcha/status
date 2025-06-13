@@ -1,0 +1,232 @@
+# Lithuanian language file for cState
+# Official
+# Version 4.4
+
+- id: languageCode
+  translation: lt
+- id: languageName
+  translation: Lithuanian
+- id: languageNameShort
+  translation: LIT
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Yra rasti sistemų sutrikimai
+- id: isDisrupted
+  translation: Kai kurios sistemos nestabilios
+- id: isNotice
+  translation: Prašome perskaityti pranešimą
+- id: isOk
+  translation: Visos sistemos veikiai
+
+# No JS warning
+- id: noScriptingIntro
+  translation: O ne! Jūsų interneto naršyklė neturi įjungto JavaScript. Tam, kad galėtume peržiūrėti daugumą šiuolaikinių interneto svetainių, reikia turėti įdiegtą JavaScript. Rekomenduoje
+- id: noScriptingLink
+  translation: peržiūrėti šias instrukcijas,
+- id: noScriptingOutro
+  translation: jei norite išnaudoti visas šios svetainės funkcijas.
+
+- id: thisIsDown
+  translation: Neveikia
+- id: thisIsDisrupted
+  translation: Yra trukdžių
+- id: thisIsNotice
+  translation: Remontuojama
+- id: thisIsOk
+  translation: Veikia
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Paskutinį kartą atnaujinta prieš
+- id: justNow
+  translation: <5s
+- id: someTimeAgo
+  translation: ""
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: met.
+- id: monthsAgo
+  translation: mėn.
+- id: daysAgo
+  translation: d
+- id: hoursAgo
+  translation: val.
+- id: minsAgo
+  translation: min.
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Bandome automatiškai atnaujinti informaciją kas 5 min.
+
+# Incidents
+- id: incidents
+  translation: Incidentai
+- id: incidentHistory
+  translation: Incidentų išrašai
+
+- id: resolved
+  translation: Išspręsta problema # if it's less than a min
+- id: inUnderAMinute
+  translation: minutės # continuing the last string
+- id: resolvedAfter
+  translation: Išspręsta problema po # + 19 min
+- id: ofDowntime
+  translation: neveikimo laiko
+
+- id: downtimeOngoing
+  translation: Dar sprendžiama problema
+
+
+- id: calmBeforeTheStorm
+  translation: Kol kas nėra jokių incidentų.
+- id: noIncidentsDesc
+  translation: Šiame puslapyje nėra užregistruotų incidentų. Gali būti todėl, kad puslapio savininkas (arba savininkai) neseniai sukūrė šią svetainę, neturėjo incidentų šiame laiko tarpe arba neužregistravo incidentų sistemoje.
+
+
+- id: continueReading
+  translation: Skaityti toliau
+- id: prev
+  translation: Ankstesnis
+- id: next
+  translation: Kitas
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Eiti atgal į
+- id: backToTop
+  translation: Eiti į viršų
+- id: poweredBy
+  translation: Ši svetainė sukurta su
+
+- id: notFound
+  translation: Čia nieko nėra.
+- id: notFoundText
+  translation: Tai gali būti mūsų problema — galbūt puslapis, kurį bandote peržiūrėti, buvo kitur perkeltas arba buvo ištrintas. Rekomenduoje dar kartą patikrinti, ar nuoroda, kurią naudojate, nėra neteisinga.
+
+- id: subscribeViaRss
+  translation: Prenumeruoti per RSS
+- id: toAllUpdates
+  translation: visi atnaujinimai
+- id: or
+  translation: arba
+- id: onlyThisFeed
+  translation: tik šio srauto
+
+##
+## v3
+##
+- id: entries
+  translation: įrašai
+- id: newestToOldest
+  translation: naujiausi rodomi pirmi
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Ši sistema neturi nė vieno įrašo. Arba neegzistuoja, arba nė vieną kartą nebuvo sutrukdyta jos veikla.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Pastaruoju metu, regis, šis komponentas sutrikimų metu neveikia apie
+- id: averageSystemsDowntimeSecondPart
+  translation: min.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: per
+- id: weeksAgo
+  translation: " sav."
+- id: yearAgo
+  translation: " metus"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Nerodomi įvykiai, senesni nei {{ .MaxAgeYears }} met."
+- id: loading
+  translation: "Įkeliama"
+- id: chart
+  translation: "grafikas"
+- id: getSupport
+  translation: "Gauti pagalbą"
+- id: subscribe
+  translation: "Gauti pranešimus"
+- id: subscribeDescription
+  translation: "Gaukite žinutes, kai šis puslapis atsinaujina su nauja informacija."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "El. paštas"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "Webhook URL"
+- id: embed
+  translation: "Įterpti"
+- id: embedDescription
+  translation: "Galite įterpti šį puslapį į savo programą ar internetinį puslapį. Tiesiog nukopijuokite šį HTML fragmentą ir įklijuokite jį, kad gautumėte iššokantį pranešimą, jei yra sutrikimų:"
+- id: copy
+  translation: "Kopijuoti"
+- id: embedDisclaimer
+  translation: "Ieškote daugiau informacijos apie šį įterpimą ir kaip jį naudoti?"
+- id: learnMore
+  translation: "Sužinokite daugiau čia"
+- id: pushNotifications
+  translation: "Tiesioginiai pranešimai"
+- id: pushNotificationsDescription
+  translation: "Galite gauti pranešimus apie pokyčius šiame puslapyje per tiesioginius pranešimus savo naršyklėje. Kiekviename įrenginyje, kuriame norite gauti pranešimus, turėsite įjungti žinutes. Atkreipkite dėmesį, kad ši funkcija priklauso nuo naršyklės palaikymo ir gali veikti ne visuose įrenginiuose, kaip tikėtasi."
+- id: pushNotificationsDisclaimer
+  translation: "Rekomenduojame pasirinkti kitą pranešimų būdą, jei jums reikia, kad kritiniai atnaujinimai būtų pristatyti kuo greičiau."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Galite naudoti mūsų API, kad integruotumėte informaciją ir atnaujinimus iš šio puslapio į savo svetainę ar programą. Tiesiog atlikite GET užklausą šiuo URL:"
+- id: APIdisclaimer
+  translation: "Atkreipkite dėmesį, kad API gali būti taikomi apribojimai."
+- id: getAllUpdates
+  translation: "Gauti visus atnaujinimus"
+- id: getSomeUpdates
+  translation: "Gauti atnaujinimus tik iš kai kurių sistemų"
+- id: openDropdown
+  translation: "Atidaryti išskleidžiamąjį meniu"
+- id: closeDropdown
+  translation: "Uždaryti išskleidžiamąjį meniu"
+- id: automated
+  translation: "Automatizuota"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Šis įrašas buvo sugeneruotas automatiškai."
+- id: readDocumentation
+  translation: "Skaityti dokumentaciją"
+- id: copied
+  translation: "Nukopijuota!"
+- id: copyToClipboard
+  translation: "Kopijuoti į iškarpinę"
+- id: open
+  translation: "Atidaryti"

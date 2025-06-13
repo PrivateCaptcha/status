@@ -1,0 +1,8 @@
+hugo_stats.json
+.hugo_build.lock
+
+src/
+public/
+node_modules/
+resources/_gen/
+.aider*

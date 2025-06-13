@@ -1,0 +1,231 @@
+# Indonesian language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: id
+- id: languageName
+  translation: Bahasa Indonesia
+- id: languageNameShort
+  translation: IND
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Sedang mengalami masalah besar
+- id: isDisrupted
+  translation: Sedang mengalami gangguan
+- id: isNotice
+  translation: Harap baca pengumuman
+- id: isOk
+  translation: Tidak ada masalah terdeteksi
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Aduh! Sepertinya JavaScript dinonaktifkan. Harap
+- id: noScriptingLink
+  translation: aktifkan
+- id: noScriptingOutro
+  translation: guna meningkatkan pengalaman Anda di situs ini.
+
+- id: thisIsDown
+  translation: Terhenti
+- id: thisIsDisrupted
+  translation: Terganggu
+- id: thisIsNotice
+  translation: Dalam Pemeliharaan
+- id: thisIsOk
+  translation: Beroperasi
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Terakhir diperiksa
+- id: justNow
+  translation: baru saja
+- id: someTimeAgo
+  translation: yang lalu
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: tahun
+- id: monthsAgo
+  translation: bulan
+- id: daysAgo
+  translation: h
+- id: hoursAgo
+  translation: j
+- id: minsAgo
+  translation: m
+- id: secondsAgo
+  translation: d
+
+- id: autoRefreshNotice
+  translation: Kami akan usahakan memuat ulang setiap 5 menit
+
+# Incidents
+- id: incidents
+  translation: Insiden
+- id: incidentHistory
+  translation: Riwayat insiden
+
+- id: resolved
+  translation: Selesai # if it's less than a min
+- id: inUnderAMinute
+  translation: di bawah satu menit # continuing the last string
+- id: resolvedAfter
+  translation: Selesai setelah # + 19 min
+- id: ofDowntime
+  translation: terhenti
+
+- id: downtimeOngoing
+  translation: Masalah ini belum terselesaikan
+
+
+- id: calmBeforeTheStorm
+  translation: Apakah ini ketenangan sebelum badai?
+- id: noIncidentsDesc
+  translation: Halaman status ini belum memiliki insiden tercatat, karena kemungkinan pemilik halaman ini baru saja mengatur halaman ini, belum memiliki waktu henti, atau belum pernah mencatat waktu henti.
+
+
+- id: continueReading
+  translation: Terus membaca
+- id: prev
+  translation: Sebelum
+- id: next
+  translation: Sesudah
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Kembali ke
+- id: backToTop
+  translation: Kembali ke atas
+- id: poweredBy
+  translation: Diberdayakan oleh
+
+- id: notFound
+  translation: Tidak ada apa-apa di sini.
+- id: notFoundText
+  translation: Mungkin ini masalah kami. Barangkali ada informasi yang telah kami pindahkan, atau boleh jadi informasi yang Anda ingin lihat kosong. Namun bisakah Anda coba periksa ulang tautannya?
+
+- id: subscribeViaRss
+  translation: Langganan via RSS
+- id: toAllUpdates
+  translation: untuk semua pembaruan
+- id: or
+  translation: atau
+- id: onlyThisFeed
+  translation: feed ini saja
+
+##
+## v3
+##
+- id: entries
+  translation: entri
+- id: newestToOldest
+  translation: baru ke lama
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Tampaknya sistem ini tidak ada atau belum pernah mencatat waktu henti.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Baru-baru ini, berdasarkan data rata-rata, tampaknya sistem ini telah berhenti selama sekitar
+- id: averageSystemsDowntimeSecondPart
+  translation: menit setiap kalinya.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: dalam
+- id: weeksAgo
+  translation: " minggu"
+- id: yearAgo
+  translation: " tahun"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Tidak menampilkan insiden yang lebih lama dari {{ .MaxAgeYears }} tahun"
+- id: loading
+  translation: "Memuat"
+- id: chart
+  translation: "Grafik"
+- id: getSupport
+  translation: "Dapatkan dukungan"
+- id: subscribe
+  translation: "Berlangganan"
+- id: subscribeDescription
+  translation: "Berlangganan pembaruan dari halaman status ini."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Email"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "URL Webhook"
+- id: embed
+  translation: "Sematkan"
+- id: embedDescription
+  translation: "Anda dapat menyematkan halaman status ini di situs web atau aplikasi Anda sendiri. Cukup salin cuplikan HTML berikut dan tempelkan untuk mendapatkan pesan pop-up jika ada gangguan:"
+- id: copy
+  translation: "Salin"
+- id: embedDisclaimer
+  translation: "Mencari informasi lebih lanjut tentang sematan ini dan bagaimana Anda dapat menggunakannya?"
+- id: learnMore
+  translation: "Pelajari lebih lanjut di sini"
+- id: pushNotifications
+  translation: "Notifikasi Push"
+- id: pushNotificationsDescription
+  translation: "Anda dapat berlangganan halaman status ini melalui notifikasi push melalui browser Anda. Anda harus melakukan ini di setiap perangkat yang ingin Anda terima notifikasinya. Harap perhatikan bahwa fitur ini bergantung pada dukungan browser dan mungkin tidak berfungsi di semua perangkat seperti yang diharapkan."
+- id: pushNotificationsDisclaimer
+  translation: "Kami merekomendasikan untuk memilih metode notifikasi yang berbeda jika Anda membutuhkan pembaruan kritis untuk dikirimkan sesegera mungkin."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Anda dapat menggunakan API kami untuk mengintegrasikan informasi dan pembaruan dari halaman status ini ke situs web atau aplikasi Anda sendiri. Cukup buat permintaan GET ke URL berikut:"
+- id: APIdisclaimer
+  translation: "Harap perhatikan bahwa API mungkin dikenakan pembatasan tarif."
+- id: getAllUpdates
+  translation: "Dapatkan semua pembaruan"
+- id: getSomeUpdates
+  translation: "Dapatkan pembaruan hanya dari beberapa sistem"
+- id: openDropdown
+  translation: "Buka dropdown"
+- id: closeDropdown
+  translation: "Tutup dropdown"
+- id: automated
+  translation: "Otomatis"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Postingan ini dibuat secara otomatis."
+- id: readDocumentation
+  translation: "Baca dokumentasi"
+- id: copied
+  translation: "Disalin!"
+- id: copyToClipboard
+  translation: "Salin ke clipboard"
+- id: open
+  translation: "Buka"

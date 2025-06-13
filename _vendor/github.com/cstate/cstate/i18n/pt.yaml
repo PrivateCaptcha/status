@@ -1,0 +1,229 @@
+# Portuguese language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: pt
+- id: languageName
+  translation: Portuguese
+- id: languageNameShort
+  translation: POR
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Enfrentando problemas importantes
+- id: isDisrupted
+  translation: Enfrentando disruipções
+- id: isNotice
+  translation: Por favor leia o anúncio
+- id: isOk
+  translation: Todos os sistemas operacionais
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Uh oh! Parece que você desabilitou o JavaScript! Por favor
+- id: noScriptingLink
+  translation: habilitar scripts
+- id: noScriptingOutro
+  translation: para aprimorar sua experiência neste site.
+
+- id: thisIsDown
+  translation: Baixo
+- id: thisIsDisrupted
+  translation: Interrompido
+- id: thisIsNotice
+  translation: Manutenção
+- id: thisIsOk
+  translation: Funcionando
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Última verificação
+- id: justNow
+  translation: Agora mesmo
+- id: someTimeAgo
+  translation: Anteriormente
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: anos
+- id: monthsAgo
+  translation: meses
+- id: daysAgo
+  translation: d
+- id: hoursAgo
+  translation: h
+- id: minsAgo
+  translation: min
+- id: secondsAgo
+  translation: s
+
+- id: autoRefreshNotice
+  translation: Nós vamos tentar atualizar a cada 5 minutos
+
+# Incidents
+- id: incidents
+  translation: Incidentes
+- id: incidentHistory
+  translation: Histórico de incidentes
+
+- id: resolved
+  translation: Resolvido # if it's less than a min
+- id: inUnderAMinute
+  translation: em menos de um minuto # continuing the last string
+- id: resolvedAfter
+  translation: Resolvido depois # + 19 min
+- id: ofDowntime
+  translation: tempo de inatividade
+
+- id: downtimeOngoing
+  translation: Esse problema ainda não foi resolvido
+
+
+- id: calmBeforeTheStorm
+  translation: Isso é a calma após a tempestade?
+- id: noIncidentsDesc
+  translation: Essa página de status não possui incidentes registrados. Isso pode ocorrer porque o proprietário (ou proprietários) da página de status configurou recentemente sua página de status, não teve nenhu tempo de inatividade ou não registrou nenhum tempo de inatividade.
+
+
+- id: continueReading
+  translation: Continuar leitura
+- id: prev
+  translation: Anterior
+- id: next
+  translation: Próximo
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Voltar para
+- id: backToTop
+  translation: Voltar ao topo
+- id: poweredBy
+  translation: Distribuído por
+
+- id: notFound
+  translation: Não há nada aqui.
+- id: notFoundText
+  translation: Isso pode ser um problema da nossa parte. Talvez tenhamos movido um determinado recurso e agora ele se foi. Também é possível que o recurso que você está tentando visualizar esteja vazio. Mas você se importa de verificar o link?
+
+- id: subscribeViaRss
+  translation: Se increva via RSS
+- id: toAllUpdates
+  translation: para todas as atualizações
+- id: or
+  translation: ou
+- id: onlyThisFeed
+  translation: só para esse feed
+
+##
+## v3
+##
+- id: entries
+  translation: entradas
+- id: newestToOldest
+  translation: do mais novo para o mais antigo
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Parece que o sistema não existe ou nunca teve nenhum tempo de inatividade registrado.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Recentemente, por dados médicos para que esse sistema caiu por
+- id: averageSystemsDowntimeSecondPart
+  translation: minutos em uma hora.
+
+##
+## v4.4
+##
+
+- id: in
+  translation: em
+- id: weeksAgo
+  translation: " semanas"
+- id: yearAgo
+  translation: " ano"
+
+##
+## v6
+##
+- id: incidentMaxAgeNotice
+  translation: "Não mostrando incidentes anteriores a {{ .MaxAgeYears }} anos"
+- id: loading
+  translation: "Carregando"
+- id: chart
+  translation: "Gráfico"
+- id: getSupport
+  translation: "Obter suporte"
+- id: subscribe
+  translation: "Inscrever-se"
+- id: subscribeDescription
+  translation: "Inscreva-se para receber atualizações desta página de status."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "E-mail"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "URL do Webhook"
+- id: embed
+  translation: "Incorporar"
+- id: embedDescription
+  translation: "Você pode incorporar esta página de status em seu próprio site ou aplicativo. Basta copiar o seguinte trecho de HTML e colá-lo para obter uma mensagem pop-up se houver interrupções:"
+- id: copy
+  translation: "Copiar"
+- id: embedDisclaimer
+  translation: "Procurando mais informações sobre esta incorporação e como você pode usá-la?"
+- id: learnMore
+  translation: "Saiba mais aqui"
+- id: pushNotifications
+  translation: "Notificações push"
+- id: pushNotificationsDescription
+  translation: "Você pode se inscrever nesta página de status por meio de notificações push por meio de seu navegador. Você terá que fazer isso em todos os dispositivos em que deseja receber notificações. Observe que esse recurso está sujeito ao suporte do navegador e pode não funcionar em todos os dispositivos como esperado."
+- id: pushNotificationsDisclaimer
+  translation: "Recomendamos escolher um método de notificação diferente se você precisar que as atualizações críticas sejam entregues o mais rápido possível."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Você pode usar nossa API para integrar as informações e atualizações desta página de status em seu próprio site ou aplicativo. Basta fazer uma solicitação GET para o seguinte URL:"
+- id: APIdisclaimer
+  translation: "Observe que a API pode estar sujeita a limitação de taxa."
+- id: getAllUpdates
+  translation: "Obter todas as atualizações"
+- id: getSomeUpdates
+  translation: "Obter atualizações apenas de alguns sistemas"
+- id: openDropdown
+  translation: "Abrir menu suspenso"
+- id: closeDropdown
+  translation: "Fechar menu suspenso"
+- id: automated
+  translation: "Automatizado"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Esta postagem foi gerada automaticamente."
+- id: readDocumentation
+  translation: "Ler documentação"
+- id: copied
+  translation: "Copiado!"
+- id: copyToClipboard
+  translation: "Copiar para a área de transferência"
+- id: open
+  translation: "Abrir"

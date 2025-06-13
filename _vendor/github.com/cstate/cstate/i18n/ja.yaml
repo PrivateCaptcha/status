@@ -1,0 +1,231 @@
+# Japanese language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: ja
+- id: languageName
+  translation: Japanese
+- id: languageNameShort
+  translation: JPN
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: 重大な障害が発生しています
+- id: isDisrupted
+  translation: 軽微な障害が発生しています
+- id: isNotice
+  translation: メンテナンスを実施中です
+- id: isOk
+  translation: 全システム正常
+
+# No JS warning
+- id: noScriptingIntro
+  translation: おっと！JavaScriptが無効になっているようです。
+- id: noScriptingLink
+  translation: JavaScriptを有効化
+- id: noScriptingOutro
+  translation: することで、より良い体験をお届けします。
+
+- id: thisIsDown
+  translation: 重大な障害
+- id: thisIsDisrupted
+  translation: 軽微な障害
+- id: thisIsNotice
+  translation: メンテナンス
+- id: thisIsOk
+  translation: 正常
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: 最終更新
+- id: justNow
+  translation: たった今
+- id: someTimeAgo
+  translation: 前
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: 年
+- id: monthsAgo
+  translation: か月
+- id: daysAgo
+  translation: 日
+- id: hoursAgo
+  translation: 時間
+- id: minsAgo
+  translation: 分
+- id: secondsAgo
+  translation: 秒
+
+- id: autoRefreshNotice
+  translation: 5分ごとに自動的に情報が更新されます
+
+# Incidents
+- id: incidents
+  translation: インシデント
+- id: incidentHistory
+  translation: インシデント履歴
+
+- id: resolved
+  translation: 解決済み # if it's less than a min
+- id: inUnderAMinute
+  translation: 1分以内 # continuing the last string
+- id: resolvedAfter
+  translation: 解決までの時間 # + 19 min
+- id: ofDowntime
+  translation: 間の障害
+
+- id: downtimeOngoing
+  translation: このインシデントはまだ解消されていません
+
+
+- id: calmBeforeTheStorm
+  translation: 嵐の前の静けさでしょうか？
+- id: noIncidentsDesc
+  translation: このステータスページには、インシデントがありません。これはステータスページの所有者が最近このステータスページを設定したか、ダウンタイムが無かったか、ダウンタイムを記録していない可能性があります。
+
+
+- id: continueReading
+  translation: 続きを読む
+- id: prev
+  translation: 前へ
+- id: next
+  translation: 次へ
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Go back to
+- id: backToTop
+  translation: トップに移動
+- id: poweredBy
+  translation: 提供元
+
+- id: notFound
+  translation: 何も見つかりませんでした。
+- id: notFoundText
+  translation: これは私たちに問題があるかもしれません。おそらくページを移動したら、それが無くなってしまったのでしょう。リンク先をもう一度ご確認ください。
+
+- id: subscribeViaRss
+  translation: RSS
+- id: toAllUpdates
+  translation: 全てのアップデートを購読
+- id: or
+  translation: または
+- id: onlyThisFeed
+  translation: このフィードのみ
+
+##
+## v3
+##
+- id: entries
+  translation: エントリー
+- id: newestToOldest
+  translation: 新しい順
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: このシステムは存在しないか、ダウンタイムが記録されたことがありません。
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: このシステムの平均的なダウンタイムは
+- id: averageSystemsDowntimeSecondPart
+  translation: 分ほどでした。
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: に
+- id: weeksAgo
+  translation: " 週間前"
+- id: yearAgo
+  translation: " 年前"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "{{ .MaxAgeYears }} 年以上前のインシデントは表示しません"
+- id: loading
+  translation: "読み込み中"
+- id: chart
+  translation: "チャート"
+- id: getSupport
+  translation: "サポートを受ける"
+- id: subscribe
+  translation: "購読"
+- id: subscribeDescription
+  translation: "このステータスページの更新を購読します。"
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "メール"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "Webhook URL"
+- id: embed
+  translation: "埋め込み"
+- id: embedDescription
+  translation: "このステータスページを自分のウェブサイトやアプリケーションに埋め込むことができます。障害が発生した場合にポップアップメッセージを表示するには、次の HTML スニペットをコピーして貼り付けてください:"
+- id: copy
+  translation: "コピー"
+- id: embedDisclaimer
+  translation: "この埋め込みに関する詳細と使用方法については、こちらをご覧ください。"
+- id: learnMore
+  translation: "詳細はこちら"
+- id: pushNotifications
+  translation: "プッシュ通知"
+- id: pushNotificationsDescription
+  translation: "ブラウザのプッシュ通知を介して、このステータスページを購読できます。通知を受信するすべてのデバイスでこれを行う必要があります。この機能はブラウザのサポート対象であり、すべてのデバイスで期待どおりに動作しない場合があることに注意してください。"
+- id: pushNotificationsDisclaimer
+  translation: "重要な更新をできるだけ早く配信する必要がある場合は、別の通知方法を選択することをお勧めします。"
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "API を使用して、このステータスページの情報と更新を自分のウェブサイトやアプリケーションに統合できます。次の URL に GET リクエストを送信してください:"
+- id: APIdisclaimer
+  translation: "API にはレート制限が適用される場合があることに注意してください。"
+- id: getAllUpdates
+  translation: "すべての更新を取得する"
+- id: getSomeUpdates
+  translation: "一部のシステムからのみ更新を取得する"
+- id: openDropdown
+  translation: "ドロップダウンを開く"
+- id: closeDropdown
+  translation: "ドロップダウンを閉じる"
+- id: automated
+  translation: "自動化"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "この投稿は自動的に生成されました。"
+- id: readDocumentation
+  translation: "ドキュメントを読む"
+- id: copied
+  translation: "コピーしました！"
+- id: copyToClipboard
+  translation: "クリップボードにコピー"
+- id: open
+  translation: "開く"

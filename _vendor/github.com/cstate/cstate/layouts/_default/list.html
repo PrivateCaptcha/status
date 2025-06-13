@@ -1,0 +1,37 @@
+{{ partial "meta" . }}
+{{ $title := .Title }}
+
+<body class="default list">
+	<header>
+		<div class="contain center">
+			<a href="{{ .Site.BaseURL }}">← {{ T "goBack" }} <em>{{ .Site.Title }}</em></a>
+			<div class="padding"></div><div class="padding"></div>
+
+			<h1 class="clean">
+				{{ if eq $title "Issues" }}
+					{{ T "incidentHistory" }}
+				{{ else }}
+					{{ $title }}
+				{{ end }}
+			</h1>
+
+		</div>
+	</header>
+
+	{{ if not .Site.Params.disableIncidentHistory }}
+	<div class="contain contain--more" id="incidents">
+		{{  if eq .Site.Params.incidentHistoryFormat "monthly" }}
+		{{ partial "index/incidents-monthly" . }}
+		{{ else }}
+		{{ partial "index/incidents-yearly" . }}
+		{{ end }}
+		<div class="padding"></div>
+	</div>
+	{{ end }}
+
+
+	{{ partial "js" . }}
+	{{ partial "footer" . }}
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+# Ukrainian language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: uk
+- id: languageName
+  translation: Ukrainian
+- id: languageNameShort
+  translation: UKR
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Має серйозні проблеми
+- id: isDisrupted
+  translation: Виникають збої
+- id: isNotice
+  translation: Будь ласка, прочитайте оголошення
+- id: isOk
+  translation: Проблем не виявлено
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Ой-ой! Схоже, ви вимкнули JavaScript. Будь ласка
+- id: noScriptingLink
+  translation: увімкнути сценарії
+- id: noScriptingOutro
+  translation: щоб покращити ваш досвід роботи на цьому веб-сайті.
+
+- id: thisIsDown
+  translation: Впав
+- id: thisIsDisrupted
+  translation: Порушено
+- id: thisIsNotice
+  translation: Технічне обслуговування
+- id: thisIsOk
+  translation: Працює
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: Останнє оновлення
+- id: justNow
+  translation: щойно
+- id: someTimeAgo
+  translation: назад
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: р.
+- id: monthsAgo
+  translation: міс.
+- id: daysAgo
+  translation: д.
+- id: hoursAgo
+  translation: год.
+- id: minsAgo
+  translation: хв.
+- id: secondsAgo
+  translation: с.
+
+- id: autoRefreshNotice
+  translation: Ми намагатимемося оновлювати кожні 5 хвилин
+
+# Incidents
+- id: incidents
+  translation: Інциденти
+- id: incidentHistory
+  translation: Історія інцидентів
+
+- id: resolved
+  translation: Вирішено # if it's less than a min
+- id: inUnderAMinute
+  translation: менш ніж за хвилину # continuing the last string
+- id: resolvedAfter
+  translation: Вирішено через # + 19 min
+- id: ofDowntime
+  translation: простою
+
+- id: downtimeOngoing
+  translation: Ця проблема ще не вирішена
+
+- id: calmBeforeTheStorm
+  translation: Це затишшя перед бурею?
+- id: noIncidentsDesc
+  translation: На цій сторінці статусу немає зареєстрованих інцидентів. Це може бути тому, що власник (або власники) сторінки статусу нещодавно налаштували свою сторінку статусу та у них не зареєстровано жодного простою.
+
+- id: continueReading
+  translation: Продовжити читання
+- id: prev
+  translation: Попередній
+- id: next
+  translation: Далі
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Повернутися до
+- id: backToTop
+  translation: Догори
+- id: poweredBy
+  translation: На основі
+
+- id: notFound
+  translation: Тут нічого немає.
+- id: notFoundText
+  translation: Це може бути проблемою з нашого боку. Можливо, ми перемістили певний ресурс і тепер його немає. Також можливо, що ресурс, який ви намагаєтеся переглянути, порожній. Але ви також не проти ще раз перевірити посилання?
+
+- id: subscribeViaRss
+  translation: Підпишіться через RSS
+- id: toAllUpdates
+  translation: на всі оновлення
+- id: or
+  translation: або
+- id: onlyThisFeed
+  translation: тільки на ці
+
+##
+## v3
+##
+- id: entries
+  translation: записи
+- id: newestToOldest
+  translation: від найновішого до найстарішого
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Схоже, що цієї системи або не існує, або ніколи не було зафіксовано простоїв.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Виходячи з середніх даних, виявляється, що ця система не працювала приблизно
+- id: averageSystemsDowntimeSecondPart
+  translation: хв.
+
+##
+## v4.4
+##
+
+- id: in
+  translation: in # Not changed - https://github.com/cstate/cstate/issues/289
+- id: weeksAgo
+  translation: ' тиж.'
+- id: yearAgo
+  translation: ' р.'
+
+## v6
+##
+- id: incidentMaxAgeNotice
+  translation: "Не показувати інциденти, яким більше {{ .MaxAgeYears }} років"
+- id: loading
+  translation: "Завантаження"
+- id: chart
+  translation: "Діаграма"
+- id: getSupport
+  translation: "Отримати підтримку"
+- id: subscribe
+  translation: "Підписатися"
+- id: subscribeDescription
+  translation: "Підпишіться на оновлення з цієї сторінки стану."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Електронна пошта"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "URL-адреса вебхука"
+- id: embed
+  translation: "Вставити"
+- id: embedDescription
+  translation: "Ви можете вставити цю сторінку стану на свій власний веб-сайт або в додаток. Просто скопіюйте наступний фрагмент HTML і вставте його, щоб отримати спливаюче повідомлення, якщо є збої:"
+- id: copy
+  translation: "Копіювати"
+- id: embedDisclaimer
+  translation: "Шукаєте більше інформації про це вбудовування та як його можна використовувати?"
+- id: learnMore
+  translation: "Дізнайтеся більше тут"
+- id: pushNotifications
+  translation: "Push-сповіщення"
+- id: pushNotificationsDescription
+  translation: "Ви можете підписатися на цю сторінку стану за допомогою push-сповіщень через свій браузер. Вам потрібно буде зробити це на кожному пристрої, на якому ви хочете отримувати сповіщення. Зверніть увагу, що ця функція залежить від підтримки браузера і може працювати не на всіх пристроях належним чином."
+- id: pushNotificationsDisclaimer
+  translation: "Ми рекомендуємо вибрати інший спосіб сповіщення, якщо вам потрібно, щоб критичні оновлення доставлялися якомога швидше."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "Ви можете використовувати наш API, щоб інтегрувати інформацію та оновлення з цієї сторінки стану у свій власний веб-сайт або додаток. Просто зробіть GET-запит за такою URL-адресою:"
+- id: APIdisclaimer
+  translation: "Зверніть увагу, що API може підлягати обмеженню швидкості."
+- id: getAllUpdates
+  translation: "Отримати всі оновлення"
+- id: getSomeUpdates
+  translation: "Отримувати оновлення лише від деяких систем"
+- id: openDropdown
+  translation: "Відкрити спадне меню"
+- id: closeDropdown
+  translation: "Закрити спадне меню"
+- id: automated
+  translation: "Автоматично"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "Це повідомлення було згенеровано автоматично."
+- id: readDocumentation
+  translation: "Читати документацію"
+- id: copied
+  translation: "Скопійовано!"
+- id: copyToClipboard
+  translation: "Копіювати в буфер обміну"
+- id: open
+  translation: "Відкрити"
