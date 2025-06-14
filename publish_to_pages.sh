@@ -27,6 +27,7 @@ hugo --ignoreCache
 
 #mkdir -p public/.github/workflows
 #cp -v .github/workflows/deploy.yaml public/.github/workflows/
+cp -v CNAME public/CNAME
 
 echo "Updating ${DEPLOY_BRANCH} branch"
 cd public && git add --all && git commit -m "Publishing to pages (publish.sh)"
