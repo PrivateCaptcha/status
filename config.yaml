@@ -148,6 +148,7 @@ params:
       description: Puzzle, Verify and other APIs
     - name: Websites
       description: Portal, Public website, Docs
+      closed: true
 
   # These are your systems. Change them to
   # change the amount of components.
