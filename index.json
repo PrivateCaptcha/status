@@ -20,7 +20,7 @@
         "name": "Websites",
         "description": "Portal, Public website, Docs",
         "hideTitle": false,
-        "closedByDefault": false
+        "closedByDefault": true
       }
     
   ],
@@ -80,8 +80,8 @@
   ],
   
 
-  "buildDate": "2025-06-13",
-  "buildTime": "16:44",
+  "buildDate": "2025-06-14",
+  "buildTime": "11:35",
   "buildTimezone": "EEST",
   "colorBrand": "#072929",
   "colorOk": "#00ba00",
