@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <meta name="description" content="We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.">
-    <title>404 Page not found | Private Captcha</title>
-    <link rel="canonical" href="https://status.privatecaptcha.com/404.html">
+    <title>Issues | Private Captcha</title>
+    <link rel="canonical" href="https://status.privatecaptcha.com/issues/">
+    <link rel="alternate" type="application/json" href="https://status.privatecaptcha.com/issues/index.json" title="Private Captcha" />
+    <link rel="alternate" type="application/rss+xml" href="https://status.privatecaptcha.com/issues/index.xml" title="Private Captcha" />
     <meta name="generator" content="cState v6.0 - https://github.com/cstate/cstate">
     <meta name="theme-color" content="#072929">
     <script>
@@ -463,128 +465,105 @@
 
 <body class="default list">
 	<header>
-		<div class="contain">
+		<div class="contain center">
 			<a href="https://status.privatecaptcha.com/">← Go back to <em>Private Captcha</em></a>
-			<div class="padding"></div>
-			<div class="padding"></div>
+			<div class="padding"></div><div class="padding"></div>
 
-			
-			<h1 class="clean" id="component-title">404 - There is nothing here.</h1>
+			<h1 class="clean">
+				
+					Incident history
+				
+			</h1>
 
-			<div class="padding"></div>
-
-			
-			<div id="status-marker"></div>
-			
-
-			
-			<div id="component-description" class="faded"></div>
-
-			<div class="padding"></div>
-			<div class="padding"></div>
-			<div class="padding"></div>
-			<div class="padding"></div>
-			<div class="padding"></div>
-
-
-			
-			<div class="contain center">
-				<small>Last updated:
-					
-					June 23, 2025 at 5:10 PM UTC
-					
-				</small>
-				<div class="padding"></div>
-			</div>
-			
 		</div>
 	</header>
 
 	
-
-	<script>
-		
-		const colorOk = "#00ba00";
-		const colorDown = "#cd1811";
-		const colorDisrupted = "#cc4400";
-		const colorMaintenance = "#24478f";
-
-		
-		const txtOk = "Operational";
-		const txtDown = "Down";
-		const txtDisrupted = "Disrupted";
-		const txtMaintenance = "";
-
-		
-		const symOk = "◆";
-		const symDown = "■";
-		const symDisrupted = "▲";
-		const symMaintenance = "◆";
-
-		
-		function slugify(name) {
-			return name.toLowerCase()
-				.replace(/[^a-z0-9]+/g, '-')
-				.replace(/^-+|-+$/g, '');
-		}
-
-		
-		
-		const pathParts = window.location.pathname.split('/');
-		let systemSlug = pathParts[pathParts.length - 2];
+	<div class="contain contain--more" id="incidents">
 		
 		
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="center archive__head" id="archive-2025">
+	<a href="#archive-2025" class="no-underline">
+		<strong>2025</strong>
+		<span class="faded">(1)</span>
+	</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+<a href="https://status.privatecaptcha.com/issues/2025-06-23-routine-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right relative-time" title="June 23, 2025 at 4:57 PM UTC" data-date="Jun 23 16:57:00 2025">
+      
+        June 23, 2025 at 4:57 PM UTC
+      
+    </small>
+
+    <h3>
+      Routine maintenance of database and API nodes
+    </h3>
+
+    
+    
+    
+
+    
+	
+	
+	
+	
+	
+	
+
+	<div
+		class="ok">
 		
-		function show404() {
-			document.getElementById("component-title").textContent = "404 - There is nothing here.";
-			document.getElementById("component-description").textContent =
-				"This could be a problem on our part. Perhaps we moved a certain resource and now it is gone. It is also possible that the resource you are trying to view is empty. But do you also mind to double check the link?";
-			document.getElementById("status-marker").innerHTML = "";
-		}
+		Resolved after 
+		
+		11m
+		
+		
+	</div>
+
+  
+</a>
+
+
+
+
+
+
 
 		
-		fetch("/index.json", { cache: "no-cache" })
-			.then(resp => {
-				if (!resp.ok) throw new Error(resp.statusText);
-				return resp.json();
-			})
-			.then(data => {
-				
-				const found = data.systems.find(sys => slugify(sys.name) === systemSlug);
-				if (!found) {
-					show404();
-					return;
-				}
+		<div class="padding"></div>
+	</div>
+	
 
-				
-				document.getElementById("component-title").textContent = found.name;
-				if (found.description) {
-					document.getElementById("component-description").innerHTML = found.description;
-				}
-
-				
-				const marker = document.getElementById("status-marker");
-				switch (found.status) {
-					case "down":
-						marker.innerHTML = `<strong style="color: ${colorDown}">${symDown} ${txtDown}</strong>`;
-						break;
-					case "disrupted":
-						marker.innerHTML = `<strong style="color: ${colorDisrupted}">${symDisrupted} ${txtDisrupted}</strong>`;
-						break;
-					case "notice":
-						marker.innerHTML = `<strong style="color: ${colorMaintenance}">${symMaintenance} ${txtMaintenance}</strong>`;
-						break;
-					default:
-						marker.innerHTML = `<strong style="color: ${colorOk}">${symOk} ${txtOk}</strong>`;
-						break;
-				}
-			})
-			.catch(err => {
-				
-				show404();
-			});
-	</script>
 
 	<script type="text/javascript">
   
@@ -736,6 +715,8 @@
             <a href="https://status.privatecaptcha.com/index.xml" class="no-underline">to all updates</a>
           
           
+          
+            or <a href="https://status.privatecaptcha.com/issues/index.xml" class="no-underline">only this feed (Issues)</a>
           
           
         </small>
