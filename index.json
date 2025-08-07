@@ -1,6 +1,6 @@
 {
   "is": "index",
-  "cStateVersion": "6.0",
+  "cStateVersion": "6.0.1",
   "apiVersion": "2.0",
   "title": "Private Captcha",
   "languageCodeHTML": "en",
@@ -80,8 +80,8 @@
   ],
   
 
-  "buildDate": "2025-06-23",
-  "buildTime": "17:10",
+  "buildDate": "2025-08-07",
+  "buildTime": "09:19",
   "buildTimezone": "EEST",
   "colorBrand": "#072929",
   "colorOk": "#00ba00",
