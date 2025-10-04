@@ -7,6 +7,20 @@
       {
         "is": "issue",
         "title": "Routine maintenance of database and API nodes",
+        "createdAt": "2025-10-04 20:27:00 +0000 UTC",
+        "lastMod": "2025-10-04 20:30:30 +0300 EEST",
+        "permalink": "https://status.privatecaptcha.com/issues/2025-10-04-routine-maintenance/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-10-04 20:28:00",
+        "affected": ["API"],
+        "filename": "2025-10-04-routine-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Routine maintenance of database and API nodes",
         "createdAt": "2025-06-23 16:57:00 +0000 UTC",
         "lastMod": "2025-06-23 17:10:20 +0300 EEST",
         "permalink": "https://status.privatecaptcha.com/issues/2025-06-23-routine-maintenance/",
