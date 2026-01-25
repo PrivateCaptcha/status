@@ -3,16 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://status.privatecaptcha.com/affected/</loc>
-    <lastmod>2025-10-04T20:30:30+03:00</lastmod>
+    <lastmod>2026-01-25T20:29:58+02:00</lastmod>
   </url><url>
     <loc>https://status.privatecaptcha.com/affected/api/</loc>
-    <lastmod>2025-10-04T20:30:30+03:00</lastmod>
+    <lastmod>2026-01-25T20:29:58+02:00</lastmod>
   </url><url>
     <loc>https://status.privatecaptcha.com/issues/</loc>
-    <lastmod>2025-10-04T20:30:30+03:00</lastmod>
+    <lastmod>2026-01-25T20:29:58+02:00</lastmod>
   </url><url>
     <loc>https://status.privatecaptcha.com/</loc>
-    <lastmod>2025-10-04T20:30:30+03:00</lastmod>
+    <lastmod>2026-01-25T20:29:58+02:00</lastmod>
+  </url><url>
+    <loc>https://status.privatecaptcha.com/issues/2026-01-25-routine-maintenance/</loc>
+    <lastmod>2026-01-25T20:29:58+02:00</lastmod>
   </url><url>
     <loc>https://status.privatecaptcha.com/issues/2025-10-04-routine-maintenance/</loc>
     <lastmod>2025-10-04T20:30:30+03:00</lastmod>

@@ -8,13 +8,23 @@
       <generator>github.com/cstate</generator>
       <language>en</language>
       
-      <lastBuildDate>Sat, 04 Oct 2025 20:27:00 +0000</lastBuildDate>
+      <lastBuildDate>Sun, 25 Jan 2026 20:28:00 +0000</lastBuildDate>
       
       
       
         <atom:link href="https://status.privatecaptcha.com/index.xml" rel="self" type="application/rss+xml" />
       
       
+      
+        <item>
+          <title>[Resolved] Routine maintenance of database and API nodes</title>
+          <link>https://status.privatecaptcha.com/issues/2026-01-25-routine-maintenance/</link>
+          <pubDate>Sun, 25 Jan 2026 20:28:00 +0000</pubDate>
+          <guid>https://status.privatecaptcha.com/issues/2026-01-25-routine-maintenance/</guid>
+          <category>2026-01-25 20:29:00</category>
+          <description>&lt;p&gt;Security updates were installed and nodes rebooted&lt;/p&gt;
+</description>
+        </item>
       
         <item>
           <title>[Resolved] Routine maintenance of database and API nodes</title>

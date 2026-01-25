@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Routine maintenance of database and API nodes",
+  "body": "\u003cp\u003eSecurity updates were installed and nodes rebooted\u003c/p\u003e\n",
+  "createdAt": "2026-01-25 20:28:00 +0000 UTC",
+  "lastMod": "2026-01-25 20:29:58 +0200 EET",
+  "permalink": "https://status.privatecaptcha.com/issues/2026-01-25-routine-maintenance/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2026-01-25 20:29:00",
+  "affected": ["API"],
+  "filename": "2026-01-25-routine-maintenance.md"
+}
