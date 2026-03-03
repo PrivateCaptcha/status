@@ -149,6 +149,9 @@ params:
     - name: Websites
       description: Portal, Public website, Docs
       closed: true
+    - name: Integrations
+      description: Go, Python, .NET, Java, PHP, Ruby, JavaScript, WordPress, React
+      closed: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -174,6 +177,14 @@ params:
       description: Customer portal
       category: Websites
       link: https://portal.privatecaptcha.com
+    - name: WordPress
+      description: WordPress Integration
+      category: Integrations
+      link: https://wordpress.org/plugins/private-captcha/
+    - name: React
+      descrition: React Integration
+      category: Integrations
+      link: https://www.npmjs.com/package/@private-captcha/private-captcha-react
 
 
   # What date format to use?
