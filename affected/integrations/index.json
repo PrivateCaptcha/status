@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Integrations",
+  "permalink": "https://status.privatecaptcha.com/affected/integrations/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Update of underlying library for React integration",
+        "createdAt": "2026-03-02 16:00:00 +0000 UTC",
+        "lastMod": "2026-03-03 14:33:14 +0100 CET",
+        "permalink": "https://status.privatecaptcha.com/issues/2026-03-02-react-library-upgrade/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2026-03-02 17:30:00",
+        "affected": ["Integrations"],
+        "filename": "2026-03-02-react-library-upgrade.md"
+      }
+    
+  ]
+}
+
+
+
+
+

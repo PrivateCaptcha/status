@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Update of underlying library for React integration",
+  "body": "\u003cp\u003eReact library prior to 0.0.7 (versions 0.0.6 and earlier) have outdated proof-of-work implementation and may take significantly longer time to compute now. Update to 0.0.7+ to resolve this.\u003c/p\u003e\n",
+  "createdAt": "2026-03-02 16:00:00 +0000 UTC",
+  "lastMod": "2026-03-03 14:33:14 +0100 CET",
+  "permalink": "https://status.privatecaptcha.com/issues/2026-03-02-react-library-upgrade/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2026-03-02 17:30:00",
+  "affected": ["Integrations"],
+  "filename": "2026-03-02-react-library-upgrade.md"
+}

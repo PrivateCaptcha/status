@@ -8,13 +8,23 @@
       <generator>github.com/cstate</generator>
       <language>en</language>
       
-      <lastBuildDate>Sun, 25 Jan 2026 20:28:00 +0000</lastBuildDate>
+      <lastBuildDate>Mon, 02 Mar 2026 16:00:00 +0000</lastBuildDate>
       
       
       
         <atom:link href="https://status.privatecaptcha.com/index.xml" rel="self" type="application/rss+xml" />
       
       
+      
+        <item>
+          <title>[Resolved] Update of underlying library for React integration</title>
+          <link>https://status.privatecaptcha.com/issues/2026-03-02-react-library-upgrade/</link>
+          <pubDate>Mon, 02 Mar 2026 16:00:00 +0000</pubDate>
+          <guid>https://status.privatecaptcha.com/issues/2026-03-02-react-library-upgrade/</guid>
+          <category>2026-03-02 17:30:00</category>
+          <description>&lt;p&gt;React library prior to 0.0.7 (versions 0.0.6 and earlier) have outdated proof-of-work implementation and may take significantly longer time to compute now. Update to 0.0.7+ to resolve this.&lt;/p&gt;
+</description>
+        </item>
       
         <item>
           <title>[Resolved] Routine maintenance of database and API nodes</title>

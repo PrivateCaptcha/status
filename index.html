@@ -1318,6 +1318,155 @@
 		</script>
 	</div>
 	
+	<div class="category category--closed category--titled"
+		id="integrations">
+		
+		<div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+			<span class="hide-without-js">
+				<span class="category__closed-marker">
+					<span class="sr-only">Open dropdown</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+						stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+						<polyline points="9 18 15 12 9 6"></polyline>
+					</svg>
+				</span>
+				<span class="category__open-marker">
+					<span class="sr-only">Close dropdown</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+						stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+						<polyline points="6 9 12 15 18 9"></polyline>
+					</svg>
+				</span>
+			</span>
+			<b>Integrations</b>
+			
+			<span class="tooltip tooltip--small">
+				&nbsp; <span class="faded">(?)</span>
+				<span class="tooltip__text">Go, Python, .NET, Java, PHP, Ruby, JavaScript, WordPress, React</span>
+			</span>
+			
+			<span class="category-status"></span>
+		</div>
+		
+
+		
+		<div class="components">
+			
+			
+			
+			
+			
+
+			<div class="component" id="system-wordpress"
+				data-status="ok">
+				<a href="/affected/wordpress/" class="no-underline">
+					WordPress
+				</a>
+
+				
+				<span class="tooltip tooltip--small">
+					&nbsp; <span class="faded">(?)</span>
+					<span class="tooltip__text">WordPress Integration</span>
+				</span>
+				
+
+				
+				<span class="span-icon">
+					<a href="https://wordpress.org/plugins/private-captcha/" class="external-link-style">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+							<polyline points="15 3 21 3 21 9"></polyline>
+							<line x1="10" y1="14" x2="21" y2="3"></line>
+						</svg>
+					</a>
+				</span>
+				
+
+				<span class="component-status">
+					
+					Operational
+					
+				</span>
+
+				
+
+				
+			</div>
+			
+			
+			
+			
+			
+
+			<div class="component" id="system-react"
+				data-status="ok">
+				<a href="/affected/react/" class="no-underline">
+					React
+				</a>
+
+				
+
+				
+				<span class="span-icon">
+					<a href="https://www.npmjs.com/package/@private-captcha/private-captcha-react" class="external-link-style">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+							<polyline points="15 3 21 3 21 9"></polyline>
+							<line x1="10" y1="14" x2="21" y2="3"></line>
+						</svg>
+					</a>
+				</span>
+				
+
+				<span class="component-status">
+					
+					Operational
+					
+				</span>
+
+				
+
+				
+			</div>
+			
+		</div>
+
+		
+		<script>
+			(function () {
+				var thisCategory = document.currentScript.parentNode;
+				var componentsOfThisCategory = thisCategory.querySelectorAll('.component');
+				var highestLevelStatus = 'ok';
+
+				function checkStatus(element) {
+					var status = element.getAttribute('data-status');
+					if (status === 'down') {
+						highestLevelStatus = 'down';
+					} else if (status === 'disrupted' && highestLevelStatus !== 'down') {
+						highestLevelStatus = 'disrupted';
+					} else if (status === 'notice' && highestLevelStatus !== 'down' && highestLevelStatus !== 'disrupted') {
+						highestLevelStatus = 'notice';
+					}
+				}
+
+				componentsOfThisCategory.forEach(checkStatus);
+
+				var highestLevelStatusReadable = highestLevelStatus;
+				if (highestLevelStatus === 'ok') highestLevelStatusReadable = 'Operational';
+				else if (highestLevelStatus === 'notice') highestLevelStatusReadable = 'Maintenance';
+				else if (highestLevelStatus === 'disrupted') highestLevelStatusReadable = 'Disrupted';
+				else if (highestLevelStatus === 'down') highestLevelStatusReadable = 'Down';
+
+				if (thisCategory.classList.contains('category--titled')) {
+					thisCategory.querySelector('.category__head').setAttribute('data-status', highestLevelStatus);
+					thisCategory.querySelector('.category-status').innerHTML = highestLevelStatusReadable;
+				}
+			})();
+		</script>
+	</div>
+	
 </div>
 
 
@@ -1358,6 +1507,51 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<a href="https://status.privatecaptcha.com/issues/2026-03-02-react-library-upgrade/" class="issue no-underline">
+  
+    <small class="date float-right relative-time" title="March 2, 2026 at 4:00 PM UTC" data-date="2026-03-02T16:00:00Z">
+      
+        March 2, 2026 at 4:00 PM UTC
+      
+    </small>
+
+    <h3>
+      Update of underlying library for React integration
+    </h3>
+
+    
+    
+    
+
+    
+	
+	
+	
+	
+	
+	
+
+	<div
+		class="warning">
+		
+		Resolved after 
+		1h 
+		30m
+		
+		
+	</div>
+
+  
+</a>
 
 
 

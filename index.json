@@ -22,6 +22,13 @@
         "hideTitle": false,
         "closedByDefault": true
       }
+    ,
+      {
+        "name": "Integrations",
+        "description": "Go, Python, .NET, Java, PHP, Ruby, JavaScript, WordPress, React",
+        "hideTitle": false,
+        "closedByDefault": true
+      }
     
   ],
   
@@ -76,13 +83,32 @@
         
         "unresolvedIssues": []
         
+      },
+      {
+        "name": "WordPress",
+        "description": "WordPress Integration",
+        "category": "Integrations",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "React",
+        "category": "Integrations",
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
       }
   ],
   
 
-  "buildDate": "2026-01-25",
-  "buildTime": "20:30",
-  "buildTimezone": "EET",
+  "buildDate": "2026-03-03",
+  "buildTime": "14:33",
+  "buildTimezone": "CET",
   "colorBrand": "#072929",
   "colorOk": "#00ba00",
   "colorDisrupted": "#cc4400",

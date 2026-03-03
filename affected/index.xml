@@ -8,13 +8,23 @@
     <generator>github.com/cstate</generator>
     <language>en</language>
     
-    <lastBuildDate>2026-01-25T20:28:00+00:00</lastBuildDate>
-    <updated>2026-01-25T20:28:00+00:00</updated>
+    <lastBuildDate>2026-03-02T16:00:00+00:00</lastBuildDate>
+    <updated>2026-03-02T16:00:00+00:00</updated>
     
     
     
       <atom:link href="https://status.privatecaptcha.com/affected/index.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>Integrations</title>
+        <link>https://status.privatecaptcha.com/affected/integrations/</link>
+        <pubDate>Mon, 02 Mar 2026 16:00:00 +0000</pubDate>
+        <guid>https://status.privatecaptcha.com/affected/integrations/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
     
       <item>
         <title>API</title>
